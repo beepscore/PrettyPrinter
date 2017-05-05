@@ -39,6 +39,7 @@ class PrettyPrinterTests: XCTestCase {
                     return
                 }
                 let prettyString = PrettyPrinter.pretty(dict: dict)
+                print(prettyString)
 
                 let expected = "{\n  \"feed\" : {\n    \"entry\" : [\n      {\n        \"im:name\" : {\n          \"label\" : null\n        }\n      }\n    ],\n    \"author\" : {\n      \"name\" : {\n        \"label\" : \"iTunes Store\"\n      },\n      \"uri\" : {\n        \"label\" : \"foo\"\n      }\n    }\n  }\n}"
                 XCTAssertEqual(prettyString, expected)
