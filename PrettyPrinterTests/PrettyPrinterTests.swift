@@ -46,6 +46,8 @@ class PrettyPrinterTests: XCTestCase {
 
             } catch let error {
                 print(error)
+                // error, not fault of method under test pretty
+                XCTFail()
             }
         }
         waitForExpectations(timeout: 5) { error in
