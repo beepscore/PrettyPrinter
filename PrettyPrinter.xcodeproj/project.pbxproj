@@ -13,6 +13,9 @@
 		DE18E98D1EBBEC9F004EE9A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE18E98C1EBBEC9F004EE9A3 /* Assets.xcassets */; };
 		DE18E9901EBBEC9F004EE9A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE18E98E1EBBEC9F004EE9A3 /* LaunchScreen.storyboard */; };
 		DE18E99B1EBBECA0004EE9A3 /* PrettyPrinterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE18E99A1EBBECA0004EE9A3 /* PrettyPrinterTests.swift */; };
+		DEB0700F1EBBEF1F00BB0D29 /* PrettyPrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB0700E1EBBEF1F00BB0D29 /* PrettyPrinter.swift */; };
+		DEED10B21EBCF72E000FA440 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED10B11EBCF72E000FA440 /* DataManager.swift */; };
+		DEED10B71EBCFFA8000FA440 /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = DEED10B41EBCFF4C000FA440 /* sample.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		DE18E9961EBBECA0004EE9A3 /* PrettyPrinterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrettyPrinterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE18E99A1EBBECA0004EE9A3 /* PrettyPrinterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrettyPrinterTests.swift; sourceTree = "<group>"; };
 		DE18E99C1EBBECA0004EE9A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEB0700E1EBBEF1F00BB0D29 /* PrettyPrinter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrettyPrinter.swift; sourceTree = "<group>"; };
+		DEED10B11EBCF72E000FA440 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		DEED10B41EBCFF4C000FA440 /* sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = sample.json; path = Resources/sample.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +83,11 @@
 		DE18E9841EBBEC9F004EE9A3 /* PrettyPrinter */ = {
 			isa = PBXGroup;
 			children = (
+				DEED10B31EBCFF33000FA440 /* Resources */,
 				DE18E9851EBBEC9F004EE9A3 /* AppDelegate.swift */,
+				DEED10B11EBCF72E000FA440 /* DataManager.swift */,
 				DE18E9871EBBEC9F004EE9A3 /* ViewController.swift */,
+				DEB0700E1EBBEF1F00BB0D29 /* PrettyPrinter.swift */,
 				DE18E9891EBBEC9F004EE9A3 /* Main.storyboard */,
 				DE18E98C1EBBEC9F004EE9A3 /* Assets.xcassets */,
 				DE18E98E1EBBEC9F004EE9A3 /* LaunchScreen.storyboard */,
@@ -94,6 +103,14 @@
 				DE18E99C1EBBECA0004EE9A3 /* Info.plist */,
 			);
 			path = PrettyPrinterTests;
+			sourceTree = "<group>";
+		};
+		DEED10B31EBCFF33000FA440 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DEED10B41EBCFF4C000FA440 /* sample.json */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE18E9901EBBEC9F004EE9A3 /* LaunchScreen.storyboard in Resources */,
+				DEED10B71EBCFFA8000FA440 /* sample.json in Resources */,
 				DE18E98D1EBBEC9F004EE9A3 /* Assets.xcassets in Resources */,
 				DE18E98B1EBBEC9F004EE9A3 /* Main.storyboard in Resources */,
 			);
@@ -201,6 +219,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEB0700F1EBBEF1F00BB0D29 /* PrettyPrinter.swift in Sources */,
+				DEED10B21EBCF72E000FA440 /* DataManager.swift in Sources */,
 				DE18E9881EBBEC9F004EE9A3 /* ViewController.swift in Sources */,
 				DE18E9861EBBEC9F004EE9A3 /* AppDelegate.swift in Sources */,
 			);
@@ -414,6 +434,7 @@
 				DE18E9A11EBBECA0004EE9A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE18E9A21EBBECA0004EE9A3 /* Build configuration list for PBXNativeTarget "PrettyPrinterTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +443,7 @@
 				DE18E9A41EBBECA0004EE9A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,19 @@
+{
+    "feed": {
+        "author": {
+            "name": {
+                "label": "iTunes Store"
+            },
+            "uri": {
+                "label": "foo"
+            }
+        },
+        "entry": [
+            {
+                "im:name": {
+                    "label": null
+                }
+            }
+        ]
+    }
+}
