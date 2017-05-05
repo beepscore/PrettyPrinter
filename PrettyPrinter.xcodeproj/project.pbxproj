@@ -83,15 +83,15 @@
 		DE18E9841EBBEC9F004EE9A3 /* PrettyPrinter */ = {
 			isa = PBXGroup;
 			children = (
-				DEED10B31EBCFF33000FA440 /* Resources */,
 				DE18E9851EBBEC9F004EE9A3 /* AppDelegate.swift */,
-				DEED10B11EBCF72E000FA440 /* DataManager.swift */,
-				DE18E9871EBBEC9F004EE9A3 /* ViewController.swift */,
-				DEB0700E1EBBEF1F00BB0D29 /* PrettyPrinter.swift */,
-				DE18E9891EBBEC9F004EE9A3 /* Main.storyboard */,
 				DE18E98C1EBBEC9F004EE9A3 /* Assets.xcassets */,
-				DE18E98E1EBBEC9F004EE9A3 /* LaunchScreen.storyboard */,
+				DEED10B11EBCF72E000FA440 /* DataManager.swift */,
 				DE18E9911EBBEC9F004EE9A3 /* Info.plist */,
+				DE18E98E1EBBEC9F004EE9A3 /* LaunchScreen.storyboard */,
+				DE18E9891EBBEC9F004EE9A3 /* Main.storyboard */,
+				DEB0700E1EBBEF1F00BB0D29 /* PrettyPrinter.swift */,
+				DEED10B31EBCFF33000FA440 /* Resources */,
+				DE18E9871EBBEC9F004EE9A3 /* ViewController.swift */,
 			);
 			path = PrettyPrinter;
 			sourceTree = "<group>";
@@ -99,8 +99,8 @@
 		DE18E9991EBBECA0004EE9A3 /* PrettyPrinterTests */ = {
 			isa = PBXGroup;
 			children = (
-				DE18E99A1EBBECA0004EE9A3 /* PrettyPrinterTests.swift */,
 				DE18E99C1EBBECA0004EE9A3 /* Info.plist */,
+				DE18E99A1EBBECA0004EE9A3 /* PrettyPrinterTests.swift */,
 			);
 			path = PrettyPrinterTests;
 			sourceTree = "<group>";
