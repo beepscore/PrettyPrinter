@@ -1,5 +1,5 @@
 # Purpose
-Write a method to pretty print JSON.
+Write Swift methods to parse and pretty print JSON.
 
 # References
 ## Swift JSON Tutorial: Working with JSON
